@@ -75,7 +75,7 @@ Other example settings files with non-competitive (non-kWTA) networks use includ
 RUNNING A COMPLETE SET OF SIMULATIONS FOR ANALYSIS
 ==================================================
 
-For the paper, 50 random simulations with the same settings were run.  To do this, place the levy.prop file in a directory called ./SOURCE/ and then, with the compile java files on your CLASSPATH, execute the following perl script.
+For the paper, 50 random simulations with the same settings were run.  To do this, place the levy.prop file in a directory called ./SOURCE/ and then, with the compiled java files on your CLASSPATH, execute the following perl script with | sh (for example, ./run.pl | sh).
 
 #!/usr/bin/perl
 $alpha = "alpha0.8";
